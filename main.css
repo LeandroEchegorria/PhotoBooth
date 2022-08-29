@@ -1,0 +1,74 @@
+body, button{ 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+	background-color: #0A5781;
+	text-align:center;
+	color: white;
+	font-size: 26px;
+	
+}
+
+
+* {
+	margin:0;
+	padding:0;
+	/*box-sizing: border-box;*/
+}
+
+
+body {
+  height: auto;
+  /*background-image: url("./fondo.jpg");
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: 100%;*/
+}
+
+#countdown {
+	font-family: 'Lucida Console';
+	color: #0A5781;
+	opacity: .5;
+	font-size:200px;
+	display: 'none';
+    justify-content: center;
+		
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+	width: 640px;
+    height: 480px;
+    border: solid 4px #0A5781;
+	
+}
+
+.container span{
+	
+	/*font-size: 10em;*/
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+
+button{
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    width: 125px;
+    padding: 10px 0 10px 0;
+}
+
+#img{
+	border: solid 10px;
+	/*transform:rotate(10deg);*/
+}
+
